@@ -1,0 +1,6 @@
+c:\users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\bin\Debug\AerosmathTestImplementation.exe.config
+c:\users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\bin\Debug\AerosmathTestImplementation.exe
+c:\users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\bin\Debug\AerosmathTestImplementation.pdb
+c:\users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\obj\Debug\AerosmathTestImplementation.exe
+c:\users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\obj\Debug\AerosmathTestImplementation.pdb
+C:\Users\bgammill\documents\visual studio 2013\Projects\AerosmathTestImplementation\AerosmathTestImplementation\obj\Debug\AerosmathTestImplementation.csprojResolveAssemblyReference.cache
