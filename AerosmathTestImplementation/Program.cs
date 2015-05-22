@@ -26,7 +26,8 @@ namespace AerosmathTestImplementation
 
         public static ConversionWrapper ConvertToMeter(Unit from, double num)
         {
-            return new ConversionWrapper(from, Unit.Meter, num);
+            var conversionResult = num * units.Single(x => x.Key == from).Value;
+            return new ConversionWrapper(from, Unit.Meter, conversionResult);
         }
     }
 }
