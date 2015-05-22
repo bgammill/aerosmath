@@ -10,7 +10,7 @@ namespace AerosmathTestImplementation
     {
         public static double GetConversionFactor(Unit unit)
         {
-            Program.units.Single(x => x.Key == unit).Value;
+            return Program.units.Single(x => x.Key == unit).Value;
         }
     }
 }
