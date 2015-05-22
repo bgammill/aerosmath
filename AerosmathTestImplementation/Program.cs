@@ -8,7 +8,7 @@ namespace AerosmathTestImplementation
 {
     public class Program
     {
-        static Dictionary<Unit, double> units = new Dictionary<Unit, double>();
+        public static Dictionary<Unit, double> units = new Dictionary<Unit, double>();
         static void Main(string[] args)
         {
             units.Add(Unit.Inch, 0.0254);
@@ -26,7 +26,7 @@ namespace AerosmathTestImplementation
 
         public static ConversionWrapper ConvertToMeter(Unit from, double num)
         {
-            var conversionResult = num * units.Single(x => x.Key == from).Value;
+            var conversionResult = num * Extensions.GetConversionFactor(from);
             return new ConversionWrapper(from, Unit.Meter, conversionResult);
         }
     }
